@@ -1,4 +1,5 @@
 # mommentum
+Google 크롬 확장앱인 mommentum Todo List 클론입니다.
 
 ## URL
 https://won-developer.github.io/mommentum-clone/
