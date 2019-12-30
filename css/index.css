@@ -39,6 +39,7 @@ body {
 
 .info .info__name_text {
     color: #fff;
+    text-shadow: 0 0 15px rgba(9, 132, 227,1.0);
 }
 
 .input--text {
@@ -63,7 +64,7 @@ body {
     text-align: right;
     color: #fff;
     position: absolute;
-    top: 80px;
+    top: 15px;
     right: 10px;
 }
 @keyframes bg {
@@ -107,6 +108,17 @@ body {
     background: #55a532 linear-gradient(#91dd70, #55ae2e);
     /* flex-grow:1; */
 }
+
+.info__todo .info__todolist li button:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.07);
+}
+
 .username--hide {
     display: none;
 }
@@ -115,6 +127,7 @@ body {
 }
 
 .bg-img1 {
+    position: relative;
     width: 100%;
     max-height: 700px;
     padding: 200px 0;
@@ -124,6 +137,7 @@ body {
     animation: bg 1s linear;
 }
 .bg-img2 {
+    position: relative;
     width: 100%;
     max-height: 700px;
     padding: 200px 0;
@@ -133,6 +147,7 @@ body {
     animation: bg 1s linear;
 }
 .bg-img3 {
+    position: relative;
     width: 100%;
     max-height: 700px;
     padding: 200px 0;
@@ -142,6 +157,7 @@ body {
     animation: bg 1s linear;
 }
 .bg-img4 {
+    position: relative;
     width: 100%;
     max-height: 700px;
     padding: 200px 0;
